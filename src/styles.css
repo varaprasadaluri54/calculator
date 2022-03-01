@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* background: greenyellow; */
+}
+.mainCalc {
+  /* box-shadow: 100px 5px 5px green; */
+}
+input[type="button"] {
+  width: 100px;
+  background: #4caf50;
+  border: 1px solid #222;
+  padding: 10px 20px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type="button"]:active {
+  background: #ccc;
+  box-shadow: 10px 5px 5px green;
+}
+
+.screen-row input {
+  width: 400px;
+  background: rgb(188, 235, 112);
+  border: 0px;
+  color: #222;
+  padding: 10px;
+  text-align: right;
+  box-shadow: 10px 5px 5px green;
+}
+
+.CalculatorTitle {
+  font-size: 30px;
+  width: 400px;
+  padding: 10px 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 2px solid black;
+  color: #4caf50;
+  text-shadow: 2px 3px 5px orange;
+  box-shadow: 10px 5px 5px green;
+}
