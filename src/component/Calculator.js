@@ -52,7 +52,7 @@ export default function Calculator() {
   return (
     <div className="frame">
       <CalculatorTitle value="Calculator" />
-      <div class="mainCalc">
+      <div className="mainCalc">
         <OutputScreen question={ques} answe={ans} />
         <div className="button-row">
           <Button label={"Clear"} handleClick={handleClick} />

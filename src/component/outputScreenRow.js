@@ -1,7 +1,12 @@
 export default function OutputScreenRow(props) {
   return (
     <div className="screen-row">
-      <input type="text" readOnly value={props.value} />
+      <input
+        type="text"
+        style={{ outline: "none" }}
+        readOnly
+        value={props.value}
+      />
     </div>
   );
 }
